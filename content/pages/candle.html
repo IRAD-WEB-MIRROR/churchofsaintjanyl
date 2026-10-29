@@ -1,0 +1,33 @@
+headline: Light a candle
+dek: Light a candle before the icon of St. Janyl from wherever you are, and leave a prayer intention for the Sunday Qurbana.
+
+<div class="page">
+<h1>Light a candle</h1>
+<p>Before the 18th-century icon of St. Janyl and the White Rider stands the great candle stand given by the women of the Lower Town in 1998. Pilgrims light a candle there for the sick, for travellers, for those far from home and for the dead. If you cannot come to Cathedral Hill, you may light one here. The sacristan lights a candle at the stand each evening for every intention received through this page, and the intentions are read, by initials only, at the 9:30 Holy Qurbana on Sunday.</p>
+
+<div class="candle-stand" id="stand" aria-live="polite"><p class="small">The candles are being lit…</p></div>
+<p class="small" id="stand-count"></p>
+
+<section class="box candle-form">
+<h3>Your candle</h3>
+<form id="candle-form">
+<p><label for="c-ini">Your initials (shown with your candle)</label><br><input id="c-ini" maxlength="5" placeholder="e.g. A.K." required autocomplete="off"></p>
+<p><label for="c-for">For</label><br><select id="c-for">
+<option>the sick</option><option>a safe journey</option><option>one far from home</option><option>the soul of the departed</option><option>an exam or new work</option><option>peace in the family</option><option>thanksgiving</option><option>a private intention</option>
+</select></p>
+<p><label for="c-text">Your intention (optional; read only by the sacristan, never published)</label><br><textarea id="c-text" rows="3" maxlength="280"></textarea></p>
+<p><label><input type="checkbox" id="c-large"> A large candle, burning for three days</label></p>
+<p><button type="submit" class="btn">Light the candle</button></p>
+</form>
+<div id="candle-mine" hidden></div>
+</section>
+
+<h2>Please note</h2>
+<ul>
+<li>Names are never read in full. Write initials only, and do not write the names of other people in your intention.</li>
+<li>Intentions are kept by the sacristan until the Sunday Qurbana and then burned with the old palms.</li>
+<li>There is no charge. Those who wish may give to the upkeep of the candle stand at the cathedral office or through the parish account (see <a href="contact.html">Contact and giving</a>).</li>
+<li>To ask for a Holy Qurbana to be offered for a particular intention, write to the cathedral office. Mass intentions are not taken through this page.</li>
+</ul>
+</div>
+<script src="assets/candle.js"></script>

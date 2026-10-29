@@ -1,0 +1,143 @@
+/* Church of St. Janyl. Archeparchy of Iyık Janyl, web office. */
+:root {
+  --crimson: #7d1424;
+  --crimson-2: #5e0f1b;
+  --gold: #b08a3e;
+  --turq: #2a7f86;
+  --cream: #fbf7ee;
+  --paper: #fffdf7;
+  --ink: #2a2522;
+  --ink-2: #5a514b;
+  --rule: #e4d9c4;
+  --serif: "Alegreya", Georgia, serif;
+  --sans: "Alegreya Sans", "Trebuchet MS", Arial, sans-serif;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--cream); color: var(--ink); font: 18px/1.6 var(--sans); }
+a { color: var(--crimson); }
+a:hover { color: var(--crimson-2); }
+img { max-width: 100%; height: auto; display: block; }
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 16px; }
+h1, h2, h3, h4 { font-family: var(--serif); font-weight: 700; line-height: 1.2; color: var(--crimson-2); }
+h1 { font-size: clamp(28px, 4.5vw, 40px); margin: 6px 0 14px; }
+h2 { font-size: 26px; margin: 28px 0 8px; }
+h3 { font-size: 20px; }
+.small { font-size: 15px; color: var(--ink-2); }
+
+.topbar { background: var(--crimson-2); color: #f2e6d8; font-size: 14px; }
+.topbar .wrap { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; padding: 5px 16px; }
+.topbar a { color: #fff; }
+.head { background: var(--paper); border-bottom: 4px solid var(--crimson); }
+.head-in { padding: 16px; }
+.brand { display: flex; align-items: center; gap: 16px; text-decoration: none; }
+.brand img { border-radius: 4px; flex: none; }
+.brand .name { display: block; font: 700 clamp(28px, 5vw, 42px)/1.05 var(--serif); color: var(--crimson); }
+.brand .sub { display: block; font-size: 15px; color: var(--ink-2); margin-top: 4px; }
+.nav { background: var(--crimson); }
+.nav .wrap { display: flex; flex-wrap: wrap; gap: 0; padding: 0 8px; }
+.nav a { color: #fff; text-decoration: none; padding: 9px 11px; font-size: 16px; }
+.nav a:hover { background: var(--crimson-2); color: #fff; }
+
+.main { background: var(--paper); padding-top: 20px; padding-bottom: 40px; border-left: 1px solid var(--rule); border-right: 1px solid var(--rule); }
+.crumbs { font-size: 14px; color: var(--ink-2); }
+
+/* home */
+.hero { position: relative; margin: 0 0 22px; }
+.hero img { width: 100%; aspect-ratio: 16/7; object-fit: cover; }
+.hero .cap { position: absolute; left: 0; right: 0; bottom: 0; background: linear-gradient(transparent, rgba(30,10,12,.85)); color: #fff; padding: 40px 22px 16px; }
+.hero .cap h1 { color: #fff; margin: 0 0 4px; }
+.hero .cap p { margin: 0; max-width: 720px; }
+.cols { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 30px; }
+.box { background: var(--cream); border: 1px solid var(--rule); border-top: 4px solid var(--gold); padding: 12px 16px; margin-bottom: 20px; }
+.box h3 { margin: 4px 0 8px; }
+.box.turq { border-top-color: var(--turq); }
+.today { font-size: 16px; }
+.today li { padding: 3px 0; }
+.message { display: grid; grid-template-columns: 140px 1fr; gap: 16px; align-items: start; }
+.message img { border: 1px solid var(--rule); }
+
+.news-list { list-style: none; margin: 0; padding: 0; }
+.news-list li { display: grid; grid-template-columns: 180px 1fr; gap: 16px; padding: 14px 0; border-bottom: 1px solid var(--rule); }
+.news-list li img { aspect-ratio: 4/3; object-fit: cover; width: 100%; }
+.news-list .h { display: block; font: 700 21px/1.25 var(--serif); text-decoration: none; margin: 2px 0 4px; }
+.news-list p { margin: 0; font-size: 16px; color: var(--ink-2); }
+.news-list.short li { grid-template-columns: 120px 1fr; }
+.date { font-size: 14px; color: var(--ink-2); }
+.news-item { max-width: 760px; }
+.news-item figure, .page figure { margin: 10px 0 18px; }
+figcaption { font-size: 14px; color: var(--ink-2); padding-top: 4px; }
+.more { max-width: 760px; margin-top: 28px; border-top: 2px solid var(--crimson); }
+.more ul { padding-left: 18px; }
+
+/* services and calendar */
+.services { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 12px 24px; }
+.svc-day h4 { margin: 8px 0 4px; font-size: 18px; border-bottom: 1px solid var(--rule); }
+.svc-day ul, .feasts { list-style: none; margin: 0; padding: 0; }
+.svc-day li { font-size: 16px; padding: 2px 0; }
+.svc-day .t { display: inline-block; min-width: 48px; font-weight: 700; }
+.svc-day .lang, .feasts .note { color: var(--ink-2); font-size: 14px; }
+.feasts li { padding: 7px 0; border-bottom: 1px solid var(--rule); font-size: 16px; }
+.feasts .when { display: block; font-size: 14px; color: var(--ink-2); }
+.feasts li.fast strong { color: var(--ink-2); }
+.feasts li.great strong { color: var(--crimson); }
+
+.page { max-width: 780px; }
+.page .float { float: right; width: 300px; margin: 4px 0 12px 22px; }
+.page table { border-collapse: collapse; width: 100%; font-size: 16px; margin: 12px 0; }
+.page th, .page td { border-bottom: 1px solid var(--rule); padding: 6px 8px 6px 0; text-align: left; vertical-align: top; }
+.page th { color: var(--crimson-2); border-bottom: 2px solid var(--crimson); }
+.notice { background: #fff3d6; border-left: 4px solid var(--gold); padding: 10px 14px; font-size: 16px; }
+.gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
+
+.foot { background: var(--crimson-2); color: #eadccd; font-size: 15px; padding: 26px 0 16px; }
+.foot a { color: #fff; }
+.foot-in { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px; }
+.foot img { margin-bottom: 6px; }
+.copy { text-align: center; font-style: italic; color: #cdb9a6; margin: 18px 16px 0; }
+
+@media (max-width: 760px) {
+  body { font-size: 17px; }
+  .cols { grid-template-columns: 1fr; }
+  .news-list li, .news-list.short li { grid-template-columns: 96px 1fr; gap: 12px; }
+  .news-list .h { font-size: 18px; }
+  .message { grid-template-columns: 90px 1fr; }
+  .page .float { float: none; width: 100%; margin: 0 0 14px; }
+  .hero img { aspect-ratio: 4/3; }
+  .brand img { width: 52px; height: 52px; }
+  .nav a { padding: 7px 8px; font-size: 15px; }
+}
+
+/* Light a candle (candle.html, assets/candle.js) */
+.candle-stand { background: #2b1d14 linear-gradient(#3a271a, #1f150e); border: 6px solid #6b5326; border-radius: 4px; padding: 26px 14px 10px; margin: 18px 0 6px; min-height: 120px; }
+.cdl-row { display: flex; flex-wrap: wrap; gap: 14px 10px; align-items: flex-end; justify-content: center; }
+.cdl { width: 18px; display: flex; flex-direction: column; align-items: center; cursor: default; }
+.cdl .flame { width: 9px; height: 16px; border-radius: 50% 50% 45% 45% / 70% 70% 30% 30%; background: radial-gradient(ellipse at 50% 70%, #fff7c8 0 25%, #ffc94a 45%, #f07a1a 80%, transparent 82%); box-shadow: 0 0 14px 5px rgba(255, 190, 70, .45); animation: flick 1.6s infinite alternate ease-in-out; transform-origin: 50% 100%; }
+.cdl .wax { width: 9px; height: 34px; background: linear-gradient(90deg, #e9dcbc, #fff8e2 45%, #d9c79d); border-radius: 2px 2px 0 0; }
+.cdl-l .wax { width: 14px; height: 52px; }
+.cdl-l .flame { width: 11px; height: 19px; }
+.cdl .lab { font-size: 9px; color: #c9b58a; margin-top: 3px; white-space: nowrap; }
+.cdl-own .lab { color: #ffd76a; font-weight: 700; }
+.cdl-own .wax { box-shadow: 0 0 0 1px #ffd76a; }
+.cdl:nth-child(3n) .flame { animation-duration: 2.1s; }
+.cdl:nth-child(4n+1) .flame { animation-duration: 1.3s; animation-delay: -.6s; }
+@keyframes flick { 0% { transform: scale(1, 1) rotate(-2deg); opacity: .95; } 50% { transform: scale(.92, 1.08) rotate(1deg); } 100% { transform: scale(1.04, .95) rotate(2deg); opacity: 1; } }
+.candle-form input:not([type=checkbox]), .candle-form select, .candle-form textarea { width: 100%; max-width: 420px; font: inherit; padding: 5px 7px; border: 1px solid var(--rule); background: #fff; box-sizing: border-box; }
+@media (prefers-reduced-motion: reduce) { .cdl .flame { animation: none; } }
+.candle-form button { font: inherit; font-weight: 700; padding: 6px 16px; background: var(--crimson); color: #fff; border: 0; cursor: pointer; }
+.candle-form button:hover { background: var(--crimson-2); }
+
+/* today bar (assets/today.js) */
+.todaybar { margin: 12px 0 0; padding: 7px 12px; background: var(--cream); border: 1px solid var(--rule); border-left: 4px solid var(--turq); font-size: 15px; }
+.todaybar .tb-sep { color: var(--gold); margin: 0 4px; }
+.todaybar .tb-feast { color: var(--crimson); font-weight: 700; }
+.todaybar .tb-fast { color: #6b4b16; font-style: italic; }
+/* prayers.html */
+.prayers { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+.prayers > div { background: var(--cream); border-top: 3px solid var(--gold); padding: 6px 14px; }
+.prayers h3 { margin: 6px 0; font-size: 16px; }
+/* cathedral.html#bells */
+.bells-audio { background: var(--cream); border: 1px solid var(--rule); padding: 8px 14px; margin: 10px 0 18px; }
+.bells-audio audio { width: 100%; max-width: 420px; }
+.signup input { padding: 6px 8px; border: 1px solid #b9a98c; min-width: 220px; max-width: 100%; font: inherit; }
+.signup-msg:empty { display: none; }

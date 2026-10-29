@@ -1,0 +1,45 @@
+{
+  "site_url": "https://saintjanyl.org/",
+  "base_path": "",
+  "title": "Church of St. Janyl, Iyık Janyl | Cathedral of the Syro-Iradi Catholic Church",
+  "today": "2026-10-16",
+  "services_note": "Times from 1 November (winter): Ramsha at 17:00. On feasts the Solemn Holy Qurbana replaces the 9:30 Qurbana; see the calendar. The cathedral closes to visitors during the Holy Qurbana; worshippers are always welcome.",
+  "services": [
+    {"day": "Sunday", "items": [
+      {"time": "7:00", "what": "Sapra (Morning Prayer) and Holy Qurbana", "lang": "Iradi"},
+      {"time": "9:30", "what": "Solemn Holy Qurbana. The Archbishop presides on the first Sunday of the month", "lang": "Iradi and Syriac"},
+      {"time": "12:00", "what": "Holy Qurbana for pilgrims and visitors", "lang": "English"},
+      {"time": "17:30", "what": "Ramsha (Evening Prayer)", "lang": "Iradi and Syriac"}]},
+    {"day": "Monday to Thursday", "items": [
+      {"time": "7:00", "what": "Sapra and Holy Qurbana", "lang": "Iradi"},
+      {"time": "18:00", "what": "Ramsha", "lang": "Iradi"}]},
+    {"day": "Friday", "items": [
+      {"time": "7:00", "what": "Sapra and Holy Qurbana", "lang": "Iradi"},
+      {"time": "18:00", "what": "Ramsha", "lang": "Iradi"},
+      {"time": "18:30", "what": "Holy Qurbana in the crypt, at the tomb of Mar Gewargis, for travellers and the sick", "lang": "Iradi"}]},
+    {"day": "Saturday", "items": [
+      {"time": "7:00", "what": "Sapra and Holy Qurbana", "lang": "Iradi"},
+      {"time": "11:00", "what": "Baptisms and crownings, by arrangement with the cathedral office", "lang": ""},
+      {"time": "16:00", "what": "Confessions, until Ramsha", "lang": "Iradi, Russian, English"},
+      {"time": "17:00", "what": "Ramsha", "lang": "Iradi"}]}
+  ],
+  "calendar": [
+    {"date": "2026-10-04", "end": "2026-10-31", "name": "Season of Moses", "note": "Mushe. Four Sundays.", "kind": "season"},
+    {"date": "2026-11-01", "end": "2026-11-28", "name": "Kudash Idta, the Dedication of the Church", "note": "The last season of the church year.", "kind": "season"},
+    {"date": "2026-11-02", "name": "All Souls", "note": "Holy Qurbana for the faithful departed at 9:30, then prayers at the historic cemetery.", "kind": "feast"},
+    {"date": "2026-11-14", "name": "Commemoration of the victims of 1937", "note": "Memorial Holy Qurbana at 9:30. The names of clergy and laity taken from the diocese in 1937–38 are read in full.", "kind": "great"},
+    {"date": "2026-11-20", "name": "Yuhanna of Merv", "note": "Commemoration of the monk who, by tradition, built the first house of prayer in the Talas valley.", "kind": "feast"},
+    {"date": "2026-11-29", "name": "Subara, the Annunciation, begins", "note": "The four weeks before the Nativity. A new church year.", "kind": "season"},
+    {"date": "2026-12-25", "name": "Yalda, the Nativity of Our Lord", "note": "Night Qurbana on the 24th at 23:00; Solemn Holy Qurbana at 9:30 on the 25th.", "kind": "great"},
+    {"date": "2027-01-06", "name": "Denha, the Epiphany", "note": "Blessing of the waters at the Naryn after the 9:30 Qurbana. Bring a vessel for water to take home.", "kind": "great"},
+    {"date": "2027-01-18", "end": "2027-01-20", "name": "Ninevi Savmasy, the Rogation of the Ninevites", "note": "Three days of fasting and prayer.", "kind": "fast"},
+    {"date": "2027-02-08", "name": "Uluu Savma, the Great Fast, begins", "kind": "fast"},
+    {"date": "2027-03-25", "name": "Achytky Beyshembi, Holy Thursday, and Süyünchü Künü, the Annunciation", "note": "This year the two fall on the same day. Renewal of the malka in the highland parishes.", "kind": "great"},
+    {"date": "2027-03-26", "name": "Good Friday", "note": "Procession from the old town to Cathedral Hill.", "kind": "fast"},
+    {"date": "2027-03-28", "name": "Kyamta, the Resurrection", "note": "Night Qurbana from 23:00 on the 27th, broadcast by IradOne.", "kind": "great"},
+    {"date": "2027-04-23", "name": "St. Gewargis", "note": "Spring blessing of the horses.", "kind": "feast"},
+    {"date": "2027-08-15", "name": "The Assumption", "note": "Memorial prayers for the Lost Tribes of 1916.", "kind": "feast"},
+    {"date": "2027-08-23", "end": "2027-08-24", "name": "Feast of St. Janyl", "note": "Vigil procession from the old town on the evening of the 23rd; Holy Qurbana and the Blessing of the Herds on the 24th.", "kind": "great"},
+    {"date": "2027-09-14", "name": "Salyba Künü, the Feast of the Cross", "note": "Anniversary of the union of 1931 and the reconsecration of 1992. The end of the pilgrimage season.", "kind": "great"}
+  ]
+}
