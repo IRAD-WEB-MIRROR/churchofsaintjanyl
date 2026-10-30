@@ -141,3 +141,15 @@ figcaption { font-size: 14px; color: var(--ink-2); padding-top: 4px; }
 .bells-audio audio { width: 100%; max-width: 420px; }
 .signup input { padding: 6px 8px; border: 1px solid #b9a98c; min-width: 220px; max-width: 100%; font: inherit; }
 .signup-msg:empty { display: none; }
+
+/* feast days on the home page (assets/today.js) */
+.feastcard { margin: -10px 0 22px; padding: 12px 16px; background: var(--paper); border: 1px solid var(--gold); border-top: 4px solid var(--gold); text-align: center; }
+.feastcard b { font-family: var(--serif); font-size: 1.35rem; color: var(--crimson); }
+.feastcard .fc-name { display: block; font-size: .95rem; color: var(--ink-2); }
+.feastcard p { margin: 6px auto 0; max-width: 680px; }
+.feastcard.mourn { border-color: #555; border-top-color: #222; background: #f4f2ef; }
+.feastcard.mourn b { color: #222; }
+body.day-feast .hero img { outline: 4px solid var(--gold); outline-offset: -4px; }
+body.day-mourn .hero img { filter: grayscale(.85); }
+body.day-mourn .todaybar { border-left-color: #222; }
+body.day-lent .todaybar { border-left-color: #5b3a78; }
