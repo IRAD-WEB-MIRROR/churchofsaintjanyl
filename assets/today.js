@@ -1,5 +1,5 @@
 /* The bar under the menu on every page: today's date in Irad Time, the season or feast from the church calendar
-   (data/church.json), whether it is a fast or abstinence day, the next service today, and on Sundays the
+   (data/church.json), the saint or memory of the day (data/saints.json; on other days the weekday's devotion), whether it is a fast or abstinence day, the next service today, and on Sundays the
    IradOne broadcast. On the home page a great feast, Easter week or a day of mourning also dresses the page
    (a greeting under the picture and a colour for the day), from the same calendar in Irad Time. */
 (function () {
@@ -13,7 +13,9 @@
   function iso(d) { return d.toISOString().slice(0, 10); }
   var now = new Date(Date.now() + 6 * 3600000), today = iso(now), dow = now.getUTCDay(), mins = now.getUTCHours() * 60 + now.getUTCMinutes();
 
-  fetch(rel + "data/church.json").then(function (r) { return r.json(); }).then(function (d) {
+  var saints = fetch(rel + "data/saints.json").then(function (r) { return r.json(); }).catch(function () { return null; });
+  Promise.all([fetch(rel + "data/church.json").then(function (r) { return r.json(); }), saints]).then(function (all) {
+    var d = all[0], sd = all[1];
     var on = d.calendar.filter(function (f) { return f.date <= today && (f.end || f.date) >= today; });
     var season = on.filter(function (f) { return f.kind === "season"; })[0];
     var feast = on.filter(function (f) { return f.kind !== "season"; })[0];
@@ -24,6 +26,9 @@
     var paschal = kyamta && today > kyamta.date && today <= iso(new Date(Date.parse(kyamta.date) + 49 * 86400000));
     var bits = ['<b>' + DAYS[dow] + " " + now.getUTCDate() + " " + MONTHS[now.getUTCMonth()] + "</b>"];
     if (feast) bits.push('<span class="tb-feast">' + esc(feast.name) + "</span>");
+    var mem = sd && sd.days[today.slice(5)];
+    if (mem && !feast) bits.push('<span class="tb-saint"' + (mem[1] ? ' title="' + esc(mem[1]) + '"' : "") + ">" + (/^(The |Our |All )/.test(mem[0]) ? "" : "Memory of ") + esc(mem[0]) + "</span>");
+    else if (sd && !feast && !mem && sd.week[dow]) bits.push('<span class="tb-saint">' + esc(sd.week[dow]) + "</span>");
     if (season) bits.push(esc(season.name));
     if (fastPeriod || inLent) bits.push('<span class="tb-fast">Fast day</span>');
     else if ((dow === 3 || dow === 5) && !paschal && !(feast && feast.kind === "great")) bits.push('<span class="tb-fast">Day of abstinence</span>');
