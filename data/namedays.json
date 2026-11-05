@@ -5,7 +5,7 @@
 {"d": "09-15", "s": "Our Lady of Sorrows", "n": ["Dolores", "Lola"], "note": "The day after the Cross."},
 {"d": "07-16", "s": "Our Lady of Mount Carmel", "n": ["Carmen", "Karmen"]},
 {"d": "12-08", "s": "The Conception of the Virgin Mary", "n": ["Concepción", "Concepcion", "Concha", "Inmaculada"]},
-{"d": "03-19", "s": "St. Joseph", "n": ["Yusup", "Yusuf", "Yosep", "Yawsep", "Joseph", "Josef", "Iosif", "Osip", "José", "Jose", "Pepe"], "note": "Spouse of the Virgin Mary.", "also": [["05-01", "St. Joseph the Worker"]]},
+{"d": "03-19", "s": "St. Joseph", "n": ["Yusup", "Yusuf", "Yosep", "Yawsep", "Joseph", "Josef", "Iosif", "Osip", "José", "Jose", "Pepe"], "note": "Spouse of the Virgin Mary.", "also": [["05-01", "St. Joseph the Worker"], ["10-24", "Fr. Yawsep of the Passes"]]},
 {"d": "12-27", "s": "Mar Yuhanna, Apostle and Evangelist", "n": ["Yuhanna", "Yohannan", "John", "Ivan", "Ioann", "Juan", "Johann", "Jean", "Giovanni", "Ivana", "Joanna", "Juana"], "also": [["06-24", "The Nativity of St. John the Baptist"], ["11-20", "Yuhanna of Merv"], ["05-08", "Mar Yuhanna the Theologian"]]},
 {"d": "07-03", "s": "Mar Toma, Apostle of the East", "n": ["Toma", "Tomas", "Thomas", "Foma", "Tomasz", "Tommaso"], "note": "Apostle of India and of the Church of the East. Patron of the Eparchy of Talas.", "also": [["10-06", "Mar Toma, his translation to Edessa"]]},
 {"d": "04-23", "s": "Mar Gewargis", "n": ["Gewargis", "Georgiy", "Georgii", "Georgi", "George", "Jorj", "Jorge", "Yegor", "Egor", "Yuriy", "Yuri", "Yura", "Jurgen"], "note": "Great martyr, rider of the spring."},
@@ -103,5 +103,11 @@
 {"d": "05-25", "s": "St. Bede", "n": ["Bede"], "note": "Monk of Jarrow."},
 {"d": "05-19", "s": "St. Dunstan", "n": ["Dunstan"], "note": "Bishop."},
 {"d": "03-01", "s": "St. David of Wales", "n": ["David", "Davit", "Dawit"], "note": "Bishop."},
-{"d": "03-07", "s": "Sts. Perpetua and Felicity", "n": ["Perpetua", "Felicity", "Felicitas"], "note": "Martyrs of Carthage."}
+{"d": "03-07", "s": "Sts. Perpetua and Felicity", "n": ["Perpetua", "Felicity", "Felicitas"], "note": "Martyrs of Carthage."},
+{"d": "06-10", "s": "Mar Nahrai the Ferryman", "n": ["Nahrai", "Nakhrai", "Nahray"], "note": "Saint of the Naryn and clean water. Dawn Qurbana at the ford chapel; the river is blessed."},
+{"d": "07-08", "s": "Mart Terim the Physician", "n": ["Terim"], "note": "Servant of the sick; patron of the Sisters of the Cross and of St. Luka."},
+{"d": "02-20", "s": "Mar Shlemun of Taraz", "n": ["Shlemun", "Shlomo", "Süleyman", "Suleyman", "Sulayman", "Suleiman", "Sulaiman", "Solomon", "Solomón", "Salomon", "Solomone"], "note": "Bishop; ransomer of captives; the Seminary Library keeps his day."},
+{"d": "10-13", "s": "Mart Kutlug and the Martyrs of Almaliq", "n": ["Kutlug", "Kutluk", "Qutlugh", "Kutlu"], "note": "Twelve killed at Almaliq in 1340 for the faith."},
+{"d": "01-24", "s": "Rabban Qayoma of Kara-Suu", "n": ["Qayoma", "Kayoma", "Qayyoma", "Qayyuma"], "note": "Hermit of the dark centuries; father of the Order of St. Janyl the Hermit after Janyl."},
+{"d": "05-20", "s": "Mar Abdisho the Shepherd", "n": ["Abdisho", "Abdishu", "Ebedjesu"], "note": "Priest of the pastures, who carried the malka; the Bishop of the Chatkal Highlands sets out on his summer ride."}
 ]}

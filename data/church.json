@@ -23,7 +23,7 @@
   {
    "date": "2026-11-14",
    "name": "Commemoration of the victims of 1937",
-   "note": "Memorial Holy Qurbana at 9:30. The names of clergy and laity taken from the diocese in 1937–38 are read in full.",
+   "note": "Memorial Holy Qurbana at 9:30. The names of clergy and laity taken from the diocese in 1937–38 are read in full. Their cause is at Rome.",
    "kind": "great"
   },
   {
@@ -87,6 +87,12 @@
    "kind": "feast"
   },
   {
+   "date": "2027-06-10",
+   "name": "Mar Nahrai the Ferryman",
+   "note": "Dawn Holy Qurbana at Nahrai's Ford; the clergy come down the western path in procession and bless the river.",
+   "kind": "feast"
+  },
+  {
    "date": "2027-08-15",
    "name": "The Assumption",
    "note": "Memorial prayers for the Lost Tribes of 1916.",
@@ -104,6 +110,12 @@
    "name": "Salyba Künü, the Feast of the Cross",
    "note": "Anniversary of the union of 1931 and the reconsecration of 1992. The end of the pilgrimage season.",
    "kind": "great"
+  },
+  {
+   "date": "2027-09-19",
+   "name": "Sunday of the Saints of Irad",
+   "note": "All the saints of Irad are named at the 9:30 Solemn Qurbana; the parishes' icons on the bema.",
+   "kind": "feast"
   }
  ],
  "services": [
