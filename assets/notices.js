@@ -25,7 +25,7 @@
   var BANNS = ["first", "second", "third"];
   var NOTICES = [
     "The cathedral heating fund: the second collection today is for coal for the winter. Last year’s fund paid for 38 tonnes.",
-    "Choir rehearsal on Thursday at 18:30 in the old library. New voices, especially men, are welcome.",
+    "Choir rehearsal on Thursday at 18:30 in the old library. New voices, especially men, are welcome; Gulnara Abdyrakhmanova keeps the list after the Qurbana.",
     "The parish walk to the Ruins of Old Iyık Janyl leaves from the esplanade on Saturday at 8:00. Bring water and a hat.",
     "Volunteers are needed at the Pilgrimage Hostel kitchen on weekday mornings. Please speak to the hostel warden after the Qurbana.",
     "Lost property: a child’s blue hat and a pair of reading glasses were found in the north aisle. Ask at the candle desk.",
